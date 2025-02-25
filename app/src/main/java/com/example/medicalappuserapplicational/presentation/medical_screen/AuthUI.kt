@@ -221,7 +221,7 @@ fun AuthUI(navController: NavController, viewModel: AppViewModel = hiltViewModel
                         value = userPhoneNumber,
                         onValueChange = { userPhoneNumber = it },
                         singleLine = true,
-                        label = { Text("PhoneNumber") },
+                        placeholder = { Text("PhoneNumber") },
                         modifier = Modifier.size(height = 55.dp, width = 300.dp),
                         colors = TextFieldDefaults.colors(
                             unfocusedContainerColor = Color.White,
